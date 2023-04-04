@@ -1,0 +1,35 @@
+{
+  "name": "hospitalapi",
+  "version": "1.0.0",
+  "description": "keeps tracks of doctor and Patients",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RakeshSingh2811/HospitalAPI.git"
+  },
+  "author": "Rakesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RakeshSingh2811/HospitalAPI/issues"
+  },
+  "homepage": "https://github.com/RakeshSingh2811/HospitalAPI#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "bson": "^5.1.0",
+    "connect-mongo": "^3.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.3",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "validator": "^13.9.0"
+  }
+}
